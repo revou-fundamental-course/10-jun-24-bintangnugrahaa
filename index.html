@@ -4,12 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Temperature Converter</title>
+  <meta name="description"
+    content="Konversi suhu dari Celsius ke Fahrenheit dengan mudah menggunakan kalkulator suhu kami. Pelajari cara konversi suhu secara cepat dan akurat.">
+  <title>Temperature Converter - Konversi Celsius ke Fahrenheit</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <div class="container">
+    <h1>Konversi Suhu</h1>
     <p>Masukkan suhu derajat Celcius (°C) ke kotak dibawah, lalu klik tombol konversi untuk mendapatkan hasil konversi
       dalam bentuk fahrenheit (°F).</p>
     <div class="form-group">
@@ -29,14 +32,14 @@
       <label for="fahrenheit">Cara Konversi:</label>
       <textarea id="calculation-text" readonly></textarea>
     </div>
-    <p id="method">Fahrenheit ke Celcius</p>
+    <p id="method">Cara Konversi Dari Celcius (°C) ke Fahrenheit (°F)</p>
     <div class="info">
-      <h3>Cara Konversi Dari Celcius (°C) ke Fahrenheit (°F)</h3>
       <hr>
-      <p>Suhu S dalam derajat Fahrenheit (°F) sama dengan suhu S dalam derajat Celsius (°C) kali 9/5 tambah 32.</p>
-      <p>S(°F) = (S(°C) x 9/5) + 32</p>
+      <p id="conversion-description">Suhu S dalam derajat Fahrenheit (°F) sama dengan suhu S dalam derajat Celsius (°C)
+        kali 9/5 tambah 32.</p>
+      <p id="conversion-formula">S(°F) = (S(°C) x 9/5) + 32</p>
       <p>atau</p>
-      <p>S(°F) = (S(°C) x 1.8) + 32</p>
+      <p id="conversion-formula-alt">S(°F) = (S(°C) x 1.8) + 32</p>
     </div>
   </div>
   <script src="js/script.js"></script>
