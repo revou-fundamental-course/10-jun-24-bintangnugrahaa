@@ -98,7 +98,7 @@ hr {
 }
 
 /* Media query for mobile devices */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .container {
     width: 90%;
     margin: 20px auto;
