@@ -96,3 +96,33 @@ hr {
   font-weight: bold;
   margin-top: 20px;
 }
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .info p {
+    font-size: 12px;
+  }
+}
